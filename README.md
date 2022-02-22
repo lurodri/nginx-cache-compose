@@ -14,4 +14,4 @@ Example of nginx used as reverse proxy with cache for a backend app running on d
 <br>
 <br>
 ### 3) Run docker compose running both containers
-docker-compose up
+`docker-compose up`
