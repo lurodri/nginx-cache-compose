@@ -1,0 +1,14 @@
+services:
+    reverseproxy:
+        image: nginx-cache
+        ports:
+            - 80:80
+        restart: always
+
+    java:
+        depends_on:
+            - reverseproxy
+        ports:
+            - 8080:8080
+        image: docker-java-hello-world-app
+        restart: always
