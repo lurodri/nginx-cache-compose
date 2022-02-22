@@ -1,6 +1,6 @@
 services:
     reverseproxy:
-        image: nginx-cache
+        build: nginx-cache
         ports:
             - 80:80
         restart: always
@@ -10,5 +10,5 @@ services:
             - reverseproxy
         ports:
             - 8080:8080
-        image: docker-java-hello-world-app
+        build: java-app
         restart: always
