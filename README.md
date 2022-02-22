@@ -1,5 +1,5 @@
 # Nginx Reverse Proxy with Cache
-Pretty simple sample of nginx used as reverse proxy with cache for a backend app running on docker compose.
+Pretty simple sample of nginx used as reverse proxy with cache for a backend app, all running on docker compose.
 
 ## Steps to run
 ### 1) Compile Backend Java App
